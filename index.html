@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>广告创意作品</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .layout{
+            width:100%;
+            max-width: 640px;
+            min-width:300px;
+            margin:0 auto;
+            background-color:#e0e0e0;
+        }
+        header{
+            width:100%;
+            padding:10px;        
+        }
+        header>.titl{
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        header>.titl::after{
+            width:100%;
+            height:1px;
+            background-color: red;
+        }
+        main{
+            width:100%;
+        }
+        main>.classroom{
+
+        }
+        main>.classroom>img{
+            background-color: green;
+            width:100%;
+            margin:0 auto;
+            display:block;
+            padding:2px;            
+        }
+        main>.classroom>img:nth-of-type(n+2){
+            padding-top:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <div class="titl">广告创意作品展示</div>
+        </header>
+        <main>
+            <div class="class1 classroom">
+                    <span>17秋平面设计1班</span>
+                    <img src="https://s2.ax1x.com/2019/03/16/AZll8K.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZlJDH.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZlGKe.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZl3vD.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZl1gO.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZlYbd.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZlNVA.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZlUUI.jpg" alt="">
+            </div>
+            <div class="class2 classroom">
+                    <span>17秋平面设计2班</span>
+                    <img src="https://s2.ax1x.com/2019/03/16/AZQ5Bd.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZQmff.jpg" alt="">
+                    <img src="https://s2.ax1x.com/2019/03/16/AZQIHA.jpg" alt="">
+            </div>
+            
+        </main>
+    </div>
+</body>
+</html>
